@@ -13,8 +13,8 @@
                 dataType:'json',
                 success:function(data){
                     for (var i = 0 ; i < data.length; i++) {
+                        // 控制台
                         console.log(data[i]);
-
                         $("#"+data[i].id).attr("onclick",'window.open("'+data[i].url+'")') ;
                         $("#"+data[i].id).val(data[i].name);
                     }
