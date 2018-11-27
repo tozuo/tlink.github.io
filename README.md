@@ -33,3 +33,6 @@
 ## link.tozuo
 
 https://github.com/tozuo/zlink.github.io.git
+
+link.tozuo.cn
+tlink
