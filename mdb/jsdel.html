@@ -1,0 +1,55 @@
+
+<HTML>
+<HEAD>
+<TITLE>删除操作</TITLE>
+<script language="javascript"> 
+function delStu(id) 
+{ 
+   var conn = new ActiveXObject("ADODB.Connection"); 
+   conn.Open("DBQ=F://abc.mdb;DRIVER={Microsoft Access Driver (*.mdb)};"); 
+   var sql="delete from Student where Id=2"; 
+   conn.execute(sql); 
+   conn.close(); 
+   conn = null; 
+   alert("修改成功"); 
+} 
+</script>
+</HEAD>
+
+<BODY>
+<input name="1" type="button" value="删除" onclick="delStu(1)"/> 
+</BODY>
+</HTML>
+
+4.修改操作
+<HTML>
+<HEAD>
+<TITLE>修改操作 </TITLE>
+</HEAD>
+<script> 
+function updateUser(userId,userName) 
+{ 
+   var conn = new ActiveXObject("ADODB.Connection"); 
+   conn.Open("DBQ=F://abc.mdb;DRIVER={Microsoft Access Driver (*.mdb)};"); 
+   var rs = new ActiveXObject("ADODB.Recordset"); 
+   var sql="update Student set stuName='" + userName + "' where Id=" + userId + ""; 
+   conn.execute(sql); 
+   conn.close(); 
+   conn = null; 
+   alert("修改成功"); 
+} 
+</script> 
+<BODY>
+   <table width=100 border=1> 
+   <tr bgcolor='#f4f4f4'>
+    <td>编号</td>
+    <td>姓名</td>
+   </tr> 
+   <tr>
+    <td><input id="stuId" /></td> 
+    <td><input id="stuName"/></td>
+   </tr> 
+</table> 
+<input name="1" type="button" value="修改" onclick="updateUser(stuId.value,stuName.value)"/>
+</BODY>
+</HTML>

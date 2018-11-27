@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title>UNICODE•转译</title> 
+<script language="Javascript"> 
+	var classObj= 
+		 { 
+		   ToUnicode:function(str) 
+		   { 
+			return escape(str).replace(/%/g,"\\").toLowerCase(); 
+		   }, 
+		
+		   UnUnicode:function(str) 
+		   { 
+			return unescape(str.replace(/\\/g, "%")); 
+		   }, 
+
+		  copyingTxt:function(str) 
+		  { 
+		   document.getElementById(str).select(); 
+		   document.execCommand("Copy"); 
+		  } 
+		} 
+</script> 
+</head> 
+<body> 
+	<textarea id="codes" style="width:100%;height:80%"></textarea>
+
+	<input type="button" value="Unicode解密" onclick="javascript:codes.value=classObj.UnUnicode(codes.value)"  style="width:150px;height:80px"> 
+	<input type="button" value="Unicode加密" onclick="javascript:codes.value=classObj.ToUnicode(codes.value)" style="width:150px;height:80px"> 
+	<input type="button" value="复制上面文本" onclick="javascript:classObj.copyingTxt(&quot;codes&quot;)" style="width:150px;height:80px"> 
+	<input type="button" value="清空上面内容" onclick="javascript:codes.value=&quot;&quot;" style="width:150px;height:80px"> 
+ 
+</body>
+</html>

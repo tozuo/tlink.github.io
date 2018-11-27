@@ -1,0 +1,27 @@
+﻿<HTML>
+<HEAD>
+<TITLE>数据查询</TITLE>
+<Script >
+	var conn = new ActiveXObject("ADODB.Connection"); 
+	conn.Open("DBQ=D:/satot.cn/link.tozuo.cn/db/satot.mdb;DRIVER={Microsoft Access Driver (*.mdb)};"); 
+	var rs = new ActiveXObject("ADODB.Recordset"); 
+	var sql="select * from zlink_url"; 
+	rs.open(sql, conn); 
+	var html="";
+	while(!rs.EOF) 
+	{ 
+	   html=html+rs.Fields("id")+" "+rs.Fields("username"); 
+	   rs.moveNext(); 
+	} 
+	document.write(html);
+	rs.close(); 
+	rs = null; 
+	conn.close(); 
+	conn = null; 
+</script>
+</HEAD>
+<BODY>
+</BODY>
+</HTML>
+
+

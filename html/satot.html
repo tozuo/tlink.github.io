@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>@satot</title>
+    <link type="text/css" rel="stylesheet" href="../style/css/css.css"/>
+    <script type="text/javascript" src="../style/js/jquery-1.11.3.js" ></script>
+    <script type="text/javascript">
+        var dbjson = '';
+        $(function() {
+            $.ajax({
+                type:'get',
+                url:'../db/satot.json',
+                dataType:'json',
+                success:function(data){
+                    for (var i = 0 ; i < data.length; i++) {
+                        console.log(data[i]);
+
+                        $("#"+data[i].id).attr("onclick",'window.open("'+data[i].url+'")') ;
+                        $("#"+data[i].id).val(data[i].name);
+                    }
+                }
+            })
+        });
+    </script>
+</head>
+<body>
+<table>
+    <tr>
+        <th><input id="bt01" type="button" /></th>
+        <td></td>
+        <th><input id="bt02" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt03" type="button" /></th>
+        <td></td>
+        <th><input id="bt04" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt05" type="button" /></th>
+        <td></td>
+        <th><input id="bt06" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt07" type="button" /></th>
+        <td></td>
+        <th><input id="bt08" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt09" type="button" /></th>
+        <td></td>
+        <th><input id="bt10" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th>
+        <!--<button href="#" onclick="window.open('./tool/UNICODE_translation.html')">UNICODE•转译</button>-->
+        </th>
+        <td></td>
+        <th></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="test01" type="button" /></th>
+        <td></td>
+        <th></th>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>

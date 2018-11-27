@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>@tozuo</title>
+    <link type="text/css" rel="stylesheet" href="../style/css/css.css"/>
+    <script type="text/javascript" src="../style/js/jquery-1.11.3.js" ></script>
+    <script type="text/javascript">
+        var dbjson = '';
+        $(function() {
+            $.ajax({
+                type:'get',
+                url:'../db/satot.json',
+                dataType:'json',
+                success:function(data){
+                    for (var i = 0 ; i < data.length; i++) {
+                        console.log(data[i]);
+
+                        $("#"+data[i].id).attr("onclick",'window.open("'+data[i].url+'")') ;
+                        $("#"+data[i].id).val(data[i].name);
+                    }
+                }
+            })
+        });
+    </script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>tzuo</th>
+        <td></td>
+        <th></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt11" type="button" /></th>
+        <td></td>
+        <th><input id="bt12" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt13" type="button" /></th>
+        <td></td>
+        <th><input id="bt14" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt15" type="button" /></th>
+        <td></td>
+        <th><input id="bt16" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt17" type="button" /></th>
+        <td></td>
+        <th><input id="bt18" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="bt19" type="button" /></th>
+        <td></td>
+        <th><input id="bt20" type="button" /></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th></th>
+        <td></td>
+        <th></th>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>

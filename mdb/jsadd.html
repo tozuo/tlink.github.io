@@ -1,0 +1,39 @@
+
+<HTML>
+<HEAD>
+<TITLE>增加操作</TITLE>
+<script language="javascript"> 
+function addUser(id,stuName) 
+{ 
+  //用 JavaScript 写服务器端连接数据库的代码示例 
+  var conn = new ActiveXObject("ADODB.Connection"); 
+  conn.Open("DBQ=F://abc.mdb;DRIVER={Microsoft Access Driver (*.mdb)};"); 
+  var sql="insert into Student(ID,stuName) values("+id+",'"+stuName+"')"; 
+try{
+   conn.execute(sql); 
+   alert("添加成功"); 
+}
+catch(e){
+   document.write(e.description);
+   alert("添加失败~~~");
+}
+conn.close(); 
+
+} 
+</script> 
+</HEAD>
+
+<BODY>
+<table width=100 border=1> 
+   <tr bgcolor='#f4f4f4'>
+    <td>编号</td>
+    <td>姓名</td>
+   </tr> 
+   <tr>
+    <td><input id="stuId" /></td> 
+    <td><input id="stuName"/></td>
+   </tr> 
+</table> 
+<input name="1" type="button" value="添加" onclick="addUser(stuId.value,stuName.value)"/>
+</BODY>
+</HTML>
