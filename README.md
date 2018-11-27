@@ -32,7 +32,7 @@
 
 ## link.tozuo
 
-https://github.com/tozuo/zlink.github.io.git
+    https://github.com/tozuo/tlink.github.io.git
 
-link.tozuo.cn
-tlink
+    tlink.github.io
+    link.tozuo.cn -> tlink.github.io
