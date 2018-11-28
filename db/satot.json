@@ -1,6 +1,26 @@
 [
-    "{"id":"bt01","name":"UNICODEu2022u8F6Cu8BD1","type":"","url":"./tool/UNICODE_translation.html"}",
-    "{"id":"bt02","name":"u94FEu63A5","url":"https://link.tozuo.cn/"}",
-    "{"id":"bt03","name":"u94FEu63A5","url":"https://love.satot.cn"}",
-    "{"id":"bt04","name":"u94FEu63A5","url":"http://zuot.gitee.io/zblog/"}"
+    {
+    "id":"bt04",
+    "name":"链接",
+    "url":"http://zuot.gitee.io/zblog/",
+    "type":null
+    },
+    {
+    "id":"bt04",
+    "name":"链接",
+    "url":"http://zuot.gitee.io/zblog/",
+    "type":null
+    },
+    {
+    "id":"bt04",
+    "name":"链接",
+    "url":"http://zuot.gitee.io/zblog/",
+    "type":null
+    },
+    {
+    "id":"bt04",
+    "name":"链接",
+    "url":"http://zuot.gitee.io/zblog/",
+    "type":null
+    }
 ]
