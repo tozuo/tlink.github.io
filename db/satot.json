@@ -8,7 +8,7 @@
 	},
 	{
 		"id":"aa02",
-		"name":"链接link.tozuo.cn",
+		"name":"Link链接",
 		"url":"https://link.tozuo.cn/",
 		"type":null,
 		"seq":"2"
@@ -21,37 +21,37 @@
 		"seq":"3"
 	},
 	{
-		"id":"ab03",
-		"name":"gitee-Blog",
-		"url":"http://zuot.gitee.io/zblog/",
+		"id":"ac03",
+		"name":"Blog",
+		"url":"https://blog.satot.cn",
 		"type":null,
 		"seq":"4"
 	},
 	{
 		"id":"aa05",
-		"name":"链接",
+		"name":"链接aa05",
 		"url":"",
 		"type":null,
 		"seq":"5"
 	},
 	{
 		"id":"aa06",
-		"name":"链接",
+		"name":"链接aa06",
 		"url":"https://",
 		"type":null,
 		"seq":"6"
 	},
 	{
 		"id":"aa07",
-		"name":"链接",
-		"url":"https://",
+		"name":"zblog/gitee.io",
+		"url":"http://zuot.gitee.io/zblog/",
 		"type":null,
 		"seq":"7"
 	},
 	{
 		"id":"ba01",
-		"name":"tozuo.gitee.io",
-		"url":"",
+		"name":"tozuo",
+		"url":"https://link.tozuo.cn/",
 		"type":null,
 		"seq":"8"
 	},
