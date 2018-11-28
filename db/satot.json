@@ -1,26 +1,2 @@
-[
-    {
-    "id":"bt04",
-    "name":"链接",
-    "url":"http://zuot.gitee.io/zblog/",
-    "type":null
-    },
-    {
-    "id":"bt04",
-    "name":"链接",
-    "url":"http://zuot.gitee.io/zblog/",
-    "type":null
-    },
-    {
-    "id":"bt04",
-    "name":"链接",
-    "url":"http://zuot.gitee.io/zblog/",
-    "type":null
-    },
-    {
-    "id":"bt04",
-    "name":"链接",
-    "url":"http://zuot.gitee.io/zblog/",
-    "type":null
-    }
-]
+
+[{"id":"bt01","name":"UNICODE•转译","url":"./tool/UNICODE_translation.html","type":""},{"id":"bt02","name":"链接","url":"https://link.tozuo.cn/","type":null},{"id":"bt03","name":"链接","url":"https://love.satot.cn","type":null},{"id":"bt04","name":"链接","url":"http://zuot.gitee.io/zblog/","type":null}]
