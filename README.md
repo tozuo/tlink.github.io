@@ -1,10 +1,10 @@
 # link.tozuo.cn
 ## satot.cn
 
-### 项目介绍
+## link
 	link.tozuo.cn
 
-### gihub 提交
+## gihub 提交
 
     git config --global user.name "tozuo"
     git config --global user.email "tozuo@satot.cn"
@@ -21,6 +21,12 @@
 ### pull
 
     git pull origin master && git add .  && git commit -m "pull&push" && git push origin master
+
+
+
+## toJson
+
+    toJson.jar 将表中数据输出到 satot.json
 
 ## 文件夹说明
 ### vue
