@@ -442,8 +442,8 @@
 	},
 	{
 		"id":"da04",
-		"name":"员工个人信息服务",
-		"url":"http://eesaf5999.erp.cnpc:8000/sap/bc/webdynpro/sap/zhr_wd_ee_search_new",
+		"name":"link",
+		"url":"https://",
 		"type":"",
 		"seq":"64"
 	},
@@ -491,9 +491,9 @@
 	},
 	{
 		"id":"dc01",
-		"name":"link",
-		"url":"https://",
-		"type":null,
+		"name":"员工个人信息服务",
+		"url":"http://eesaf5999.erp.cnpc:8000/sap/bc/webdynpro/sap/zhr_wd_ee_search_new",
+		"type":"",
 		"seq":"71"
 	},
 	{
