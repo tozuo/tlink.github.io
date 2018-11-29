@@ -36,14 +36,14 @@
 	},
 	{
 		"id":"aa05",
-		"name":"主页 - ZOA@Satot.cn...",
+		"name":"ZOA主页",
 		"url":"http://127.0.0.1:8080/login",
 		"type":null,
 		"seq":"5"
 	},
 	{
 		"id":"aa06",
-		"name":"链接aa06",
+		"name":"link",
 		"url":"https://",
 		"type":null,
 		"seq":"6"
@@ -120,21 +120,21 @@
 	},
 	{
 		"id":"ac08",
-		"name":"link",
-		"url":"https://",
-		"type":null,
+		"name":"link-test",
+		"url":"http://localhost:8080/link.tozuo.cn/index.html",
+		"type":"",
 		"seq":"18"
 	},
 	{
 		"id":"ac09",
-		"name":"link-test",
-		"url":"http://localhost:8080/link.tozuo.cn/index.html",
-		"type":"",
+		"name":"link",
+		"url":"https://",
+		"type":null,
 		"seq":"19"
 	},
 	{
 		"id":"ac10",
-		"name":"登录企业邮箱",
+		"name":"腾讯企业邮箱",
 		"url":"http://exmail.qq.com/login",
 		"type":"",
 		"seq":"20"
@@ -421,28 +421,28 @@
 	},
 	{
 		"id":"da01",
-		"name":"中油瑞飞协同办公系统",
+		"name":"协同办公系统",
 		"url":"http://richfitoa.cnpc/login.html",
 		"type":"",
 		"seq":"61"
 	},
 	{
 		"id":"da02",
-		"name":"中国石油电子邮件系统",
+		"name":"电子邮件系统",
 		"url":"https://mail.cnpc/",
 		"type":"",
 		"seq":"62"
 	},
 	{
 		"id":"da03",
-		"name":"中油瑞飞绩效考核系统中油瑞飞绩效考核系统",
+		"name":"绩效考核系统",
 		"url":"http://11.11.119.103:8080/jxgl/init.ih",
 		"type":"",
 		"seq":"63"
 	},
 	{
 		"id":"da04",
-		"name":"中油瑞飞员工自助系统-员工个人信息服务",
+		"name":"员工个人信息服务",
 		"url":"http://eesaf5999.erp.cnpc:8000/sap/bc/webdynpro/sap/zhr_wd_ee_search_new",
 		"type":"",
 		"seq":"64"
