@@ -3,18 +3,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>@tozuo</title>
     <link type="text/css" rel="stylesheet" href="../style/css/css.css"/>
-    <script type="text/javascript" src="../style/js/jquery-1.11.3.js" ></script>
+    <script type="text/javascript" src="../style/js/jquery-1.11.3.js"></script>
     <script type="text/javascript">
         var dbjson = '';
-        $(function() {
+        $(function () {
             $.ajax({
-                type:'get',
-                url:'../db/satot.json',
-                dataType:'json',
-                success:function(data){
-                    for (var i = 0 ; i < data.length; i++) {
-                        $("#"+data[i].id).attr("onclick",'window.open("'+data[i].url+'")') ;
-                        $("#"+data[i].id).val(data[i].name);
+                type: 'get',
+                url: '../db/satot.json',
+                dataType: 'json',
+                success: function (data) {
+                    for (var i = 0; i < data.length; i++) {
+                        $("#" + data[i].id).attr("onclick", 'window.open("' + data[i].url + '")');
+                        $("#" + data[i].id).val(data[i].name);
                     }
                 }
             })
@@ -30,67 +30,76 @@
         <td></td>
     </tr>
     <tr>
-        <th><input id="da01" type="button" /></th>
+        <th><input id="da01" type="button"/></th>
         <td></td>
-        <th><input id="dc01" type="button" /></th>
-        <td></td>
-    </tr>
-    <tr>
-        <th><input id="da02" type="button" /></th>
-        <td></td>
-        <th><input id="dc02" type="button" /></th>
+        <th><input id="dc01" type="button"/></th>
         <td></td>
     </tr>
     <tr>
-        <th><input id="da03" type="button" /></th>
+        <th><input id="da02" type="button"/></th>
         <td></td>
-        <th><input id="dc03" type="button" /></th>
-        <td></td>
-    </tr>
-    <tr>
-        <th><input id="da04" type="button" /></th>
-        <td></td>
-        <th><input id="dc04" type="button" /></th>
+        <th><input id="dc02" type="button"/></th>
         <td></td>
     </tr>
     <tr>
-        <th><input id="da05" type="button" /></th>
+        <th><input id="da03" type="button"/></th>
         <td></td>
-        <th><input id="dc05" type="button" /></th>
+        <th><input id="dc03" type="button"/></th>
         <td></td>
     </tr>
     <tr>
-        <th><input id="da06" type="button" />
-        <!--<button href="#" onclick="window.open('./tool/UNICODE_translation.html')">UNICODE•转译</button>-->
+        <th><input id="da04" type="button"/></th>
+        <td></td>
+        <th><input id="dc04" type="button"/></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="da05" type="button"/></th>
+        <td></td>
+        <th><input id="dc05" type="button"/></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="da06" type="button"/>
+            <!--<button href="#" onclick="window.open('./tool/UNICODE_translation.html')">UNICODE•转译</button>-->
         </th>
         <td></td>
-        <th><input id="dc06" type="button" /></th>
+        <th><input id="dc06" type="button"/></th>
         <td></td>
     </tr>
     <tr>
-        <th><input id="da07" type="button" /></th>
+        <th><input id="da07" type="button"/></th>
         <td></td>
-        <th><input id="dc07" type="button" /></th>
-        <td></td>
-    </tr>
-    <tr>
-        <th><input id="da08" type="button" /></th>
-        <td></td>
-        <th><input id="dc08" type="button" /></th>
+        <th><input id="dc07" type="button"/></th>
         <td></td>
     </tr>
     <tr>
-        <th><input id="da09" type="button" /></th>
+        <th><input id="da08" type="button"/></th>
         <td></td>
-        <th><input id="dc09" type="button" /></th>
+        <th><input id="dc08" type="button"/></th>
         <td></td>
     </tr>
     <tr>
-        <th><input id="da10" type="button" /></th>
+        <th><input id="da09" type="button"/></th>
         <td></td>
-        <th><input id="dc10" type="button" /></th>
+        <th><input id="dc09" type="button"/></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th><input id="da10" type="button"/></th>
+        <td></td>
+        <th><input id="dc10" type="button"/></th>
         <td></td>
     </tr>
 </table>
+
+<br/>
+<a href="" onclick="window.open('./html/other.html')">
+    如果浏览器不支持iframe页面嵌套，请点击这里访问other页面内容。
+</a>
+<br/>
+<a href="./html/other.html" onclick="">
+    请点击这里使本页面直接跳转到../other.html
+</a>
 </body>
 </html>
