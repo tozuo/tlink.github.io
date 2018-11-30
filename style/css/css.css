@@ -32,7 +32,7 @@ tr {
 
 }
 th, td {
-    padding: 1em;
+    padding: 0.8em;
     border: 1px solid #888888;
     color: #000000;
 }
@@ -145,11 +145,8 @@ button, input, optgroup, select, textarea {
 }
 
 button {
-    overflow: visible
-}
-
-button, select {
-    text-transform: none
+    overflow: visible;
+    text-transform: none;
 }
 
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
@@ -167,7 +164,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 input {
-    line-height: normal
+    line-height: normal;
+    font-size:1.5em;
+    max-width: 99% ;
 }
 
 input[type="checkbox"], input[type="radio"] {
