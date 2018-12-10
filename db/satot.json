@@ -442,8 +442,8 @@
 	},
 	{
 		"id":"da04",
-		"name":"link",
-		"url":"https://",
+		"name":"中油瑞飞项目运营管理平台",
+		"url":"http://richfitpomp.cnpc:8081/project/indexAction.action",
 		"type":"",
 		"seq":"64"
 	},
