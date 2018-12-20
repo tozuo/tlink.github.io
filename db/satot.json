@@ -1,7 +1,7 @@
 [
 	{
 		"id":"aa01",
-		"name":"www",
+		"name":"satot.cn",
 		"url":"https://www.satot.cn",
 		"type":"0",
 		"seq":"1"
@@ -36,21 +36,21 @@
 	},
 	{
 		"id":"aa05",
-		"name":"ZOA主页",
+		"name":"test-ZOA",
 		"url":"http://127.0.0.1:8080/login",
 		"type":"0",
 		"seq":"5"
 	},
 	{
 		"id":"aa06",
-		"name":"hexo-test",
+		"name":"test-hexo",
 		"url":"http://localhost:4000/",
 		"type":"0",
 		"seq":"6"
 	},
 	{
 		"id":"aa07",
-		"name":"link-test",
+		"name":"test-link",
 		"url":"http://localhost:8080/link.tozuo.cn/index.html",
 		"type":"0",
 		"seq":"7"
