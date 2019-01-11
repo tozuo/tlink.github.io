@@ -7,16 +7,9 @@
 		"seq":"1"
 	},
 	{
-		"id":"ac02",
-		"name":"UNICODE•转译",
-		"url":"./tool/UNICODE_translation.html",
-		"type":"0",
-		"seq":"1"
-	},
-	{
 		"id":"aa02",
-		"name":"Link链接",
-		"url":"https://link.tozuo.cn/",
+		"name":"Blog",
+		"url":"https://blog.satot.cn",
 		"type":"0",
 		"seq":"2"
 	},
@@ -78,15 +71,22 @@
 	},
 	{
 		"id":"ac01",
-		"name":"",
-		"url":"https://",
+		"name":"Link链接",
+		"url":"https://link.tozuo.cn/",
 		"type":"0",
 		"seq":"11"
 	},
 	{
+		"id":"ac02",
+		"name":"UNICODE•转译",
+		"url":"./tool/UNICODE_translation.html",
+		"type":"0",
+		"seq":"12"
+	},
+	{
 		"id":"ac03",
-		"name":"Blog-satot",
-		"url":"https://blog.satot.cn",
+		"name":"",
+		"url":"https://",
 		"type":"0",
 		"seq":"13"
 	},
