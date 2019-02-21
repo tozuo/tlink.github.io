@@ -50,21 +50,21 @@
 	},
 	{
 		"id":"aa08",
-		"name":"腾讯企业邮箱",
-		"url":"http://exmail.qq.com/login",
+		"name":"网易免费邮箱 ",
+		"url":"https://email.163.com/",
 		"type":"0",
 		"seq":"8"
 	},
 	{
 		"id":"aa09",
-		"name":"网易免费邮箱 ",
-		"url":"https://email.163.com/",
+		"name":"腾讯企业邮箱",
+		"url":"http://exmail.qq.com/login",
 		"type":"0",
 		"seq":"9"
 	},
 	{
 		"id":"aa10",
-		"name":"网易免费企业邮箱",
+		"name":"网易企业邮箱",
 		"url":"http://ym.163.com/",
 		"type":"0",
 		"seq":"10"
@@ -491,8 +491,8 @@
 	},
 	{
 		"id":"dc01",
-		"name":"石油党建",
-		"url":"http://dj.cnpc/",
+		"name":"",
+		"url":"",
 		"type":"0",
 		"seq":"71"
 	},
@@ -506,21 +506,21 @@
 	{
 		"id":"dc03",
 		"name":"",
-		"url":"https://",
+		"url":"",
 		"type":"0",
 		"seq":"73"
 	},
 	{
 		"id":"dc04",
-		"name":"",
-		"url":"https://",
+		"name":"石油党建",
+		"url":"http://dj.cnpc/",
 		"type":"0",
 		"seq":"74"
 	},
 	{
 		"id":"dc05",
 		"name":"",
-		"url":"https://",
+		"url":"",
 		"type":"0",
 		"seq":"75"
 	},
@@ -540,7 +540,7 @@
 	},
 	{
 		"id":"dc08",
-		"name":"江铜Markdown",
+		"name":"dj/Markdown",
 		"url":"https://note.youdao.com/ynoteshare1/index.html?id\u003def5ab96b4629c0b66b25c9512a6189af\u0026type\u003dnote#/",
 		"type":"0",
 		"seq":"78"
