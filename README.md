@@ -39,6 +39,20 @@
     tlink.github.io
     link.tozuo.cn -> tlink.github.io
 
+## git代理设置
+    查看git目前的代理
+    git config --global --get http.proxy
+    git config --global --get https.proxy
+    
+    
+    取消设置代理
+    git config --global --unset http.proxy
+    git config --global --unset https.proxy
+    
+    
+    设置代理
+    git config --global http.proxy http://proxy3.bj.petrochina:8080/
+    git config --global https.proxy http://proxy3.bj.petrochina:8080/
 
 
 
